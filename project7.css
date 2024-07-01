@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F3F7EC;
+}
+
+.container {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: #E88D67;
+    padding: 2rem;
+    border-radius: 2rem;
+    height: 45vh;
+    width: 40vh;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #E88D67;
+}
+
+.amount {
+    font-size: 1.5rem;
+}
+
+form input {
+    border: 1px solid #006989;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    height: 2rem;
+    padding-left: .5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.from p {
+    font-size: 2rem;
+}
+
+.to p {
+    font-size: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1.9rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    border-radius: 0.5rem;
+    /* background-color: #F3F7EC; */
+    border: 1px solid #006989;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg {
+    display: flex;
+    margin: 2rem 0 2rem 0;
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+form button {
+    height: 2rem;
+    background-color: #e85b1f;
+    border-radius: .4rem;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #e59776;
+    color: #01212b;
+}
